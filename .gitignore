@@ -1,0 +1,28 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# Certificates
+/certificates
+*.pem
+*.key
+*.crt
+.env
+.env.development
+.env.qa
+.env.production
+
+# VS code configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
